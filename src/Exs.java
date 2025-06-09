@@ -1,7 +1,5 @@
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
 
 public class Exs {
     static boolean parada = false;
@@ -102,6 +100,7 @@ public class Exs {
                         input.nextLine();
                     } catch (IllegalArgumentException iae){
                         System.out.println(iae);
+                        parada = false;
                     }
                 } while (!parada);
 
