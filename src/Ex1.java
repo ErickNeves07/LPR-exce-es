@@ -25,7 +25,7 @@
 //35 a 39,9 - Obesidade grau II
 //Maior que 40 - Obesidade grau III
 
-public class ex1 {
+public class Ex1 {
     public static void main(String[] args) {
         //Declaração de variáveis ↓
         String lida = "1234567890";
